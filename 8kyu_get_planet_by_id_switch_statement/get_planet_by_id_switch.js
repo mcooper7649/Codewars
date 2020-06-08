@@ -30,7 +30,11 @@ function getPlanetName(id){
       case 8:
         name = 'Neptune'
         break;
+      default:
+        name = 'none'
+        break;
     }
+    
     
     return name;
   }
